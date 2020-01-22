@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
