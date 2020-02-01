@@ -13,3 +13,10 @@ li {
   justify-content: space-between;
   margin-right: 30px;
 }
+
+.tsubo-table {
+  margin-top: 20px;
+}
+.tsubo-table table {
+  text-align: center;
+}
