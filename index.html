@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <title>風来のシレン フェイの最終問題</title>
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
   <h2 id="oka">アプリ版風来のシレン フェイの最終問題</h2>
-  <button id="reset">リセット</button>
+  <button id="reset" type="button" class="btn btn-info">リセット</button>
+
   <div class="main-container">
     <div class="sub-container">
       <h3>壺</h3>
@@ -134,18 +136,18 @@
   <div class="tsubo-tables">
     <div class="tsubo-table">
       <h3>壺の売値表</h3>
-      <table>
+      <table class="table table-striped">
         <tr>
-          <th>壺名</th>
-          <th>0</th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-          <th>4</th>
-          <th>5</th>
+          <th scope="col">壺名</th>
+          <th scope="col">0</th>
+          <th scope="col">1</th>
+          <th scope="col">2</th>
+          <th scope="col">3</th>
+          <th scope="col">4</th>
+          <th scope="col">5</th>
         </tr>
         <tr>
-          <td>アホくさい壷、変化の壷、保存の壷、やりすごしの壷</td>
+          <td scope="row">アホくさい壷、変化の壷、保存の壷、やりすごしの壷</td>
           <td>1200</td>
           <td>1320</td>
           <td>1440</td>
@@ -154,7 +156,7 @@
           <td>1800</td>
         </tr>
         <tr>
-          <td>トドの壷、魔物のるつぼ、背中の壷</td>
+          <td scope="row">トドの壷、魔物のるつぼ、背中の壷</td>
           <td>1500</td>
           <td>1650</td>
           <td>1800</td>
@@ -163,7 +165,7 @@
           <td>2250</td>
         </tr>
         <tr>
-          <td>倉庫の壷、底抜けの壷</td>
+          <td scope="row">倉庫の壷、底抜けの壷</td>
           <td>2500</td>
           <td>2750</td>
           <td>3000</td>
@@ -172,7 +174,7 @@
           <td>3750</td>
         </tr>
         <tr>
-          <td>識別の壷、割れない壷</td>
+          <td scope="row">識別の壷、割れない壷</td>
           <td>3000</td>
           <td>3300</td>
           <td>3600</td>
@@ -181,7 +183,7 @@
           <td>4500</td>
         </tr>
         <tr>
-          <td>合成の壷</td>
+          <td scope="row">合成の壷</td>
           <td>5000</td>
           <td>5500</td>
           <td>6000</td>
@@ -190,7 +192,7 @@
           <td>7500</td>
         </tr>
         <tr>
-          <td>うっぷんばらしの壷、強化の壷、弱化の壷</td>
+          <td scope="row">うっぷんばらしの壷、強化の壷、弱化の壷</td>
           <td>10000</td>
           <td>11000</td>
           <td>12000</td>
@@ -199,7 +201,7 @@
           <td>15000</td>
         </tr>
         <tr>
-          <td>ガイバラの壷</td>
+          <td scope="row">ガイバラの壷</td>
           <td>15000</td>
           <td>16500</td>
           <td>18000</td>
@@ -212,18 +214,18 @@
 
     <div class="tsubo-table">
       <h3>壺の買取表</h3>
-      <table cellspacing="1" border="0">
+      <table class="table table-striped">
         <tr>
-          <th>壺名</th>
-          <th>0</th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-          <th>4</th>
-          <th>5</th>
+          <th scope="col">壺名</th>
+          <th scope="col">0</th>
+          <th scope="col">1</th>
+          <th scope="col">2</th>
+          <th scope="col">3</th>
+          <th scope="col">4</th>
+          <th scope="col">5</th>
         </tr>
         <tr>
-          <td>アホくさい壷、変化の壷、保存の壷、やりすごしの壷</td>
+          <td scope="row">アホくさい壷、変化の壷、保存の壷、やりすごしの壷</td>
           <td>360</td>
           <td>396</td>
           <td>432</td>
@@ -232,7 +234,7 @@
           <td>540</td>
         </tr>
         <tr>
-          <td>トドの壷、魔物のるつぼ、背中の壷</td>
+          <td scope="row">トドの壷、魔物のるつぼ、背中の壷</td>
           <td>450</td>
           <td>495</td>
           <td>540</td>
@@ -241,7 +243,7 @@
           <td>675</td>
         </tr>
         <tr>
-          <td>倉庫の壷、底抜けの壷</td>
+          <td scope="row">倉庫の壷、底抜けの壷</td>
           <td>750</td>
           <td>825</td>
           <td>900</td>
@@ -250,7 +252,7 @@
           <td>1125</td>
         </tr>
         <tr>
-          <td>識別の壷、割れない壷</td>
+          <td scope="row">識別の壷、割れない壷</td>
           <td>900</td>
           <td>990</td>
           <td>1080</td>
@@ -259,7 +261,7 @@
           <td>1350</td>
         </tr>
         <tr>
-          <td>合成の壷</td>
+          <td scope="row">合成の壷</td>
           <td>1500</td>
           <td>1650</td>
           <td>1800</td>
@@ -268,7 +270,7 @@
           <td>2250</td>
         </tr>
         <tr>
-          <td>うっぷんばらしの壷、強化の壷、弱化の壷</td>
+          <td scope="row">うっぷんばらしの壷、強化の壷、弱化の壷</td>
           <td>3000</td>
           <td>3300</td>
           <td>3600</td>
@@ -277,7 +279,7 @@
           <td>4500</td>
         </tr>
         <tr>
-          <td>ガイバラの壷</td>
+          <td scope="row">ガイバラの壷</td>
           <td>4500</td>
           <td>4950</td>
           <td>5400</td>
@@ -289,9 +291,9 @@
     </div>
   </div>
 
-  <div class="memo">
-    <h3>攻略用メモ</h3>
-    <textarea cols="100" rows="10"></textarea>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">攻略用メモ</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
   </div>
 
   <script src="index.js"></script>
